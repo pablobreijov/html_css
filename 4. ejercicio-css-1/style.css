@@ -1,0 +1,12 @@
+li:nth-child(odd) { text-decoration: underline rgb(0, 0, 255);}
+ul{
+overflow:hidden;
+}
+li{
+display:inline-block;
+}
+ul li { margin-right: 10px; }
+li:last-child::before {
+    content: "🐱";
+  
+li:lang(en) { font-size: 200%; }
